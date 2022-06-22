@@ -1,0 +1,68 @@
+body{
+  padding:0;
+  margin:0;
+}
+
+h1{
+  color: white;
+  font-size: 2.5rem;
+  margin:0;
+  padding:0;
+}
+
+p{
+  font-size: 1.25rem;
+}
+
+header{
+  display:flex;
+  justify-content: center;
+  background-color: #121214;
+  padding: .75rem 0;
+  border-bottom: 1px solid #c4c4cc;
+}
+
+main{
+  width: 1096px;
+  margin: 0 auto 4rem auto;
+}
+
+#container{
+  display: flex;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.content{
+  padding: 1rem;
+}
+.content h2{
+  font-size: 2rem;
+  margin-top: 2rem;
+  text-align:left;
+}
+
+.video{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left:1.5rem;
+}
+
+footer{
+  width:100%;
+  height: 180px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-icons{
+  display: flex;
+  gap: 2rem;
+}
+
+.icon{
+  width:42px;
+  height:auto;
+}
