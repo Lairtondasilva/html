@@ -28,7 +28,7 @@ const perguntas = [
   "Quem matou o L?",
   "Em que episódio o pai de Kira morreu?",
 ]
-
+const value = pertguntas.indexOf(1); //validação
 //eventos de click
 btn.addEventListener('click',abrirLivro)
 btn2.addEventListener('click',mudarPagina)
